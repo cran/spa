@@ -1,0 +1,12 @@
+import(cluster)
+import(MASS)
+export(spa,floyd,knnGraph,epsGraph,uDist,spa.control,spa.sim)
+
+S3method(print,spa)
+S3method(plot,spa)
+S3method(predict,spa)
+S3method(update,spa)
+S3method(fitted,spa)
+S3method(coef,spa)
+S3method(residuals,spa)
+S3method(dim,spa)

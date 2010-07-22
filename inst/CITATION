@@ -1,0 +1,19 @@
+citHeader("To cite spa in publications use:")
+
+citEntry(entry = "Article",
+  title        = "{spa}: A Semi-Supervised {R} Package for Semi-Parametric Graph-Based Estimation",
+  author       = personList(as.person("Mark Culp")),
+  journal      = "Journal of Statistical Software",
+  year         = "2011",
+  volume       = "40",
+  number       = "10",
+  pages        = "1--29",
+  url          = "http://www.jstatsoft.org/v40/i10/",
+
+  textVersion  =
+  paste("Mark Culp (2011).",
+        "spa: A Semi-Supervised R Package for Semi-Parametric Graph-Based Estimation.",
+        "Journal of Statistical Software, 40(10), 1-29.",
+        "URL http://www.jstatsoft.org/v40/i10/.")
+)
+
